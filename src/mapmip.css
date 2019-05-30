@@ -1,0 +1,58 @@
+/*@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");*/
+/*@import url("https://unpkg.com/leaflet@1.0.3/dist/leaflet.css");*/
+/*@import url("https://openlayers.org/en/v4.0.1/css/ol.css");*/
+/*@import url("http://cesiumjs.org/releases/1.30/Build/Cesium/Widgets/widgets.css");*/
+@import url("~font-awesome/css/font-awesome.min.css");
+@import url("~bootstrap/dist/css/bootstrap.min.css");
+@import url("~leaflet/dist/leaflet.css");
+@import url("~openlayers/css/ol.css");
+@import url("~cesium/Build/Cesium/Widgets/widgets.css");
+@import url("~@angular/material/prebuilt-themes/deeppurple-amber.css");
+
+.url-tooltip div.tooltip-inner {
+  max-width: none !important;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+app-map-size .popover-title {
+  color: #5cb85c;
+}
+
+app-map-position .popover-title {
+  color: #f0ad4e;
+}
+
+app-terrain .popover-title {
+  color: #46b8da;
+}
+
+popover-container.popover {
+  max-width: none;
+}
+
+.mat-form-field-infix {
+  width: auto !important;
+}
+
+.mat-primary, .mat-form-field-placeholder {
+  color: #c5cdea !important;
+}
+
+.mat-primary.mat-focused, .mat-primary.mat-focused .mat-form-field-placeholder {
+  color: white !important;
+}
+
+.mat-form-field-underline {
+  background-color: #c5cdea !important;
+}
+
+.mat-form-field-ripple {
+  background-color: white !important;
+}
+
+.modal-open .modal {
+  overflow: visible !important;
+}

@@ -1,0 +1,11 @@
+
+.lighting {
+  button.active {
+    top: 0;
+    color: gold;
+    &:focus {
+      color: gold;
+    }
+  }
+
+}

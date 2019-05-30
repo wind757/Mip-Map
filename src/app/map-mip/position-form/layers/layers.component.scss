@@ -1,0 +1,223 @@
+$tms-btn-background: #a20aa2;
+$tms-btn-border-color: purple;
+
+button.layer-btn {
+  background: $tms-btn-background;
+  border-color: $tms-btn-border-color;
+}
+
+h4 {
+  color: #a20aa2;
+}
+
+.layers-modal {
+  .modal-body {
+    .body-header {
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      button {
+        margin: 0 5px;
+        img {
+          height: 40px;
+        }
+        &.tms-btn {
+          background: $tms-btn-background;
+          border-color: $tms-btn-border-color;
+        }
+      }
+    }
+    .remove-all-btn-area {
+      margin: 10px 0;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    ul {
+      li.list-group-item {
+        padding: 6px;
+        user-select: none;
+        cursor: pointer;
+
+        &:focus {
+          outline: 2px dashed lightblue;
+          border-color: transparent;
+          z-index: 1;
+        }
+
+        &.dragovered {
+          outline: 2px dashed lightblue;
+          border-color: transparent;
+          z-index: 1;
+        }
+
+        &.dragged {
+          background: rgb(91, 192, 222);
+          opacity: .2;
+        }
+
+        div.li-row {
+          user-select: none;
+          display: flex;
+          height: 35px;
+          position: relative;
+          input.form-control {
+            width: 75%;
+            height: 100%;
+            user-select: none;
+          }
+          img {
+            height: 100%;
+            user-select: none;
+          }
+          span.url {
+            user-select: none;
+            width: calc(100% - 125px);
+            overflow: hidden;
+
+            flex-grow: 10;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 10px;
+          }
+          button {
+            user-select: none;
+            flex-grow: 0;
+            opacity: 1;
+            padding: 5px 10px;
+            margin: 0 5px;
+            font-size: 12px;
+            &.glyphicon-chevron-right {
+              transform: rotate(0deg);
+              transition: .2s;
+              user-select: none;
+            }
+            &:disabled {
+              opacity: .5;
+            }
+          }
+
+        }
+        .params {
+          display: none;
+          margin: 1% 0;
+          table {
+            width: 90%;
+            margin: 0 5%;
+          }
+        }
+        &.show-params {
+          div.li-row {
+            button {
+              opacity: 1;
+              &.glyphicon-chevron-right {
+                transform: rotate(90deg);
+              }
+            }
+          }
+          .params {
+            display: block;
+          }
+        }
+
+      }
+    }
+  }
+  .modal-footer {
+    .dropdown {
+      float: left;
+    }
+  }
+}
+
+.modal-dialog.modal-sm.add-tms {
+  .modal-body {
+    .url-group {
+      display: flex;
+      label {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 1;
+      }
+      button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 0;
+        color: white;
+        margin: 0px 0 0 5px;
+        padding: 4px 6px;
+        height: 100%;
+        font-size: 15px;
+      }
+      input {
+        flex-grow: 2;
+        width: auto;
+      }
+    }
+    ul {
+      max-height: 105px;
+      overflow: auto;
+      li {
+        font-size: 15px;
+        padding: 4px;
+        display: flex;
+        span {
+          flex-grow: 4;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+        }
+        button {
+          flex-grow: 0;
+          border-radius: 7px;
+          margin: 0 2px;
+          padding: 3px 8px;
+        }
+      }
+    }
+  }
+}
+
+.add-query {
+  .add-query-control {
+    display: flex;
+    button {
+      margin: 0 5px;
+    }
+  }
+}
+
+.modal-body.default-modal-body {
+  max-height: 306px;
+  overflow: auto;
+  button.glyphicon.glyphicon-remove {
+    color: darkred;
+  }
+  span.glyphicon.glyphicon-exclamation-sign.pull-left {
+    margin: 9px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  app-switch-layers {
+    display: none;
+  }
+
+  .layers-modal {
+    .modal-body {
+      .body-header {
+        flex-wrap: wrap;
+        button {
+          margin: 5px;
+        }
+      }
+    }
+    .modal-footer .btn {
+      margin-top: 5px;
+    }
+  }
+}

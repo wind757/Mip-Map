@@ -1,0 +1,262 @@
+[
+  {
+    "icon": "blue",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "black",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "green",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "gray",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "orange",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "yellow",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "red",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "violet",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "coffee",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "star",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "home",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "airport",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "tools",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "train",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "tree",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "lock",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "hazard",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "hotel",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "gov",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "dollar",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "conversation",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "rest",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "man",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "fire",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "coffee2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "conversation2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "dollar2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "fire2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "gov2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "hazard2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "home2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "hotel2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "lock2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "man2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "rest2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "star2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "tools2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "train2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "tree2",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "fire_",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "fire1a",
+    "width": 67,
+    "height": 80
+  },
+  {
+    "icon": "fire1b",
+    "width": 67,
+    "height": 80
+  },
+  {
+    "icon": "fire4a",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "fire4b",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "fire5",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "lock1a",
+    "width": 67,
+    "height": 80
+  },
+  {
+    "icon": "lock1b",
+    "width": 67,
+    "height": 80
+  },
+  {
+    "icon": "lock4a",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "lock4b",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "lock5",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "lock5c",
+    "width": 36,
+    "height": 48
+  },
+  {
+    "icon": "plane",
+    "width": 36,
+    "height": 48
+  }
+]
