@@ -34,4 +34,4 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md). 
 
 ##demo
-[https://github.com/wind757/Mip-Map/blob/master/demo.jpg]
+<img src="https://github.com/wind757/Mip-Map/blob/master/demo.jpg"/>
