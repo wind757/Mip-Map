@@ -1,6 +1,6 @@
-# Mapmip
+# MipMap
 
-MapMip is an experimental web mapping project. Our goal is to explore new web-based mapping methodologies, technologies & techniques, including: 2-D and 3-D switching; context preserving transitions; functional map design; efficient vector data visualization. MapMip is built on top of awesome open-source web-mapping javascript libraries: CesiumJS, LeafletJS and OpenLayers3.
+MipMap is an experimental web mapping project. Our goal is to explore new web-based mapping methodologies, technologies & techniques, including: 2-D and 3-D switching; context preserving transitions; functional map design; efficient vector data visualization. MipMap is built on top of awesome open-source web-mapping javascript libraries: CesiumJS, LeafletJS and OpenLayers3.
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.
 
